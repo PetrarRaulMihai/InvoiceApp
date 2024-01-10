@@ -86,7 +86,7 @@ function NewInvoice({ setFlagToUpdateMainPage }) {
   };
 
   return (
-    <div className="  bg-[#f8f8fb] dark:bg-[#141625] flex flex-col text-white px-4 sm:px-16 xl:px-24">
+    <div className="  bg-[#f8f8fb] dark:bg-[#141625] flex flex-col text-white px-4 sm:px-16 lg:px-40 xl:px-48 2xl:px-80">
       <div className="basis-1/6 ">
         <p className="text-2xl font-bold py-10 text-black dark:text-white">
           Create Invoice

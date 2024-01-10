@@ -97,7 +97,7 @@ function InvoicePage({ invoices, setFlagToUpdateMainPage }) {
   };
 
   return (
-    <div className="px-2 bg-[#f8f8fb] dark:bg-[#141625]  h-full flex flex-col gap-3 py-3 lg:px-72 xl:px-96">
+    <div className="px-2 bg-[#f8f8fb] dark:bg-[#141625]  h-full flex flex-col gap-3 py-3 lg:px-72 xl:px-[500px]">
       {/* Go back button */}
 
       <div className="">

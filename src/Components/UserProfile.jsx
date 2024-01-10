@@ -37,7 +37,7 @@ function UserProfile() {
   };
 
   return (
-    <div className=" bg-[#f8f8fb] overflow-hidden shadow border dark:bg-[#141625] pt-24 px-3 text-white lg:px-64 pb-44 xl:h-screen xl:px-96">
+    <div className=" bg-[#f8f8fb] overflow-hidden shadow border dark:bg-[#141625] pt-24 px-3 text-white pb-44 xl:h-screen sm:px-28 md:px-44 lg:px-64 xl:px-[450px] 2xl:px-[600px]">
       <div className="px-4 py-10 sm:px-6 flex justify-between items-center text-center">
         <h3 className="text-lg leading-6 font-medium text-black dark:text-white ">
           {userInfo?.firstName}
