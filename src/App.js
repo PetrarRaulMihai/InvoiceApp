@@ -117,6 +117,10 @@ function App() {
           }
         ></Route>
       </Routes>
+      <p className="text-center">
+        For testing create a user or please use user: ayrton.senna@gmail.com
+        password: Parola123!
+      </p>
     </div>
   );
 }
